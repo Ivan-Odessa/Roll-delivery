@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230227203652">
+	<!--<link rel="shortcut icon" href="favicon.ico">-->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="roll">
+				<div class="roll__container">
+
+					<header class="roll__header">
+
+						<img class="roll__logo" src="img/logo/logo.svg" width="92" alt="Sushi and pizza">
+						<h1 class="roll__title">Roll delivery</h1>
+						<p class="roll__subtitle">Prompt and delicious</p>
+
+					</header>
+
+					<div class="roll__body">
+						<div class="roll__cards">
+
+							<!-- Roll -->
+							<div class="roll__card card" data-id="01">
+								<picture><source srcset="img/california-hit.webp" type="image/webp"><img class="card__img" src="img/california-hit.jpg" alt="california-hit"></picture>
+								<div class="card__body">
+									<h4 class="card__title">Philadelphia hit roll</h4>
+									<p class="card__quantity"><small data-items-in-box class="">6 pcs.</small></p>
+
+									<div class="card__content content-card">
+										<div class="content-card__counter">
+											<div class="content-card__control" data-action="minus">-</div>
+											<div class="content-card__current" data-counter>1</div>
+											<div class="content-card__control" data-action="plus">+</div>
+										</div>
+
+										<div class="content-card__price price-content">
+											<div class="price-content__weight">180g.</div>
+											<div class="price-content__currency">300 $</div>
+										</div>
+									</div>
+
+									<button data-cart-btn type="button" class="card__btn card__btn-block">Add to cart</button>
+								</div>
+							</div>
+
+							<!-- Roll -->
+							<div class="roll__card card" data-id="02">
+								<picture><source srcset="img/california-tempura.webp" type="image/webp"><img class="card__img" src="img/california-tempura.jpg" alt="california-tempura"></picture>
+								<div class="card__body">
+									<h4 class="card__title">California tempura</h4>
+									<p class="card__quantity"><small data-items-in-box class="">6 pcs.</small></p>
+
+									<div class="card__content content-card">
+										<div class="content-card__counter">
+											<div class="content-card__control" data-action="minus">-</div>
+											<div class="content-card__current" data-counter>1</div>
+											<div class="content-card__control" data-action="plus">+</div>
+										</div>
+
+										<div class="content-card__price price-content">
+											<div class="price-content__weight">205g.</div>
+											<div class="price-content__currency">250 $</div>
+										</div>
+									</div>
+
+									<button data-cart-btn type="button" class="card__btn card__btn-block">Add to cart</button>
+								</div>
+							</div>
+
+							<!-- Roll -->
+							<div class="roll__card card" data-id="03">
+								<picture><source srcset="img/zapech-california.webp" type="image/webp"><img class="card__img" src="img/zapech-california.jpg" alt="zapech-california"></picture>
+								<div class="card__body">
+									<h4 class="card__title">Baked roll "California"</h4>
+									<p class="card__quantity"><small data-items-in-box class="">6 pcs.</small></p>
+
+									<div class="card__content content-card">
+										<div class="content-card__counter">
+											<div class="content-card__control" data-action="minus">-</div>
+											<div class="content-card__current" data-counter>1</div>
+											<div class="content-card__control" data-action="plus">+</div>
+										</div>
+
+										<div class="content-card__price price-content">
+											<div class="price-content__weight">182g.</div>
+											<div class="price-content__currency">230 $</div>
+										</div>
+									</div>
+
+									<button data-cart-btn type="button" class="card__btn card__btn-block">Add to cart</button>
+								</div>
+							</div>
+
+							<!-- Roll -->
+							<div class="roll__card card" data-id="04">
+								<picture><source srcset="img/philadelphia.webp" type="image/webp"><img class="card__img" src="img/philadelphia.jpg" alt="philadelphia"></picture>
+								<div class="card__body">
+									<h4 class="card__title">Philadelphia</h4>
+									<p class="card__quantity"><small data-items-in-box class="">6 pcs.</small></p>
+
+									<div class="card__content content-card">
+										<div class="content-card__counter">
+											<div class="content-card__control" data-action="minus">-</div>
+											<div class="content-card__current" data-counter>1</div>
+											<div class="content-card__control" data-action="plus">+</div>
+										</div>
+
+										<div class="content-card__price price-content">
+											<div class="price-content__weight">230g.</div>
+											<div class="price-content__currency">320 $</div>
+										</div>
+									</div>
+
+									<button data-cart-btn type="button" class="card__btn card__btn-block">Add to cart</button>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- basket -->
+						<div class="roll__basket basket">
+							<h5 class="basket__title">Your order</h4>
+								<div data-cart-empty class="basket__alert" role="alert">
+									Cart is empty
+								</div>
+
+								<div class="basket__card card-basket">
+
+									<!-- Card item -->
+									<!--           <div class="card-basket__item" data-id="02">
+                              <div class="card-basket__top">
+                                 <div class="card-basket__img">
+                                    <picture><source srcset="img/california-tempura.webp" type="image/webp"><img src="img/california-tempura.jpg" alt="california-tempura"></picture>
+                                 </div>
+                                 <div class="card-basket__desc">
+                                    <div class="card-basket__title">Сalifornia tempura</div>
+                                    <div class="card-basket__weight">6 pcs. / 205g.</div>
+
+                                    <div class="card-basket__content">
+
+                                       <div class="card-basket__counter">
+                                          <div class="card-basket__control" data-action="minus">-</div>
+                                          <div class="card-basket__current" data-counter="">1</div>
+                                          <div class="card-basket__control" data-action="plus">+</div>
+                                       </div>
+
+                                       <div class="card-basket__price">
+                                          <div class="card-basket__currency">250&nbsp;$</div>
+                                       </div>
+
+                                    </div>
+
+                                 </div>
+                              </div>
+                           </div>-->
+
+								</div>
+
+								<!-- Order cost -->
+								<div class="basket__total-box">
+									<p class="basket__delivery-box hidden">
+										<span class="basket__delivery">Delivery:</span>
+										<span class="basket__delivery-free">100</span>
+										<span class="dolar">$</span>
+									</p>
+									<p>
+										<span class="basket__total">Total:</span> <span class="basket__total-cost">0</span>
+										<span class="dolar">$</span>
+									</p>
+								</div>
+
+								<!-- Checkout -->
+								<div id="order-form" class="basket__form form-basket hidden">
+									<h5 class="form-basket__title">Checkout</h4>
+										<form>
+											<input type="tel" class="form-basket__tel" placeholder="Your phone number">
+											<button type="submit" class="form-basket__btn">Order</button>
+										</form>
+								</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230227203652"></script>
+</body>
+
+</html>
